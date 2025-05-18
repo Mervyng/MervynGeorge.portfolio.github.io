@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Mervyn George</title>
+  <link rel="stylesheet" href="CSS/Contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Mervyn George</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="Certificates.html">Certifications</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-section">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to use the form below or reach out via email.</p>
+
+      <form class="contact-form" action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> mervyngeorge2005@gmail.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mervyn-george-9204b72b1/" target="_blank">Mervyn George</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Mervyn George</p>
+    </div>
+  </footer>
+    <script src="JS/Contact.js"></script>
+</body>
+</html>
